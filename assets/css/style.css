@@ -1,0 +1,100 @@
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px; 
+  line-height: 25px;
+  border-radius: 4px;
+  display: inline block;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: cadetblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+ h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: cadetblue;
+    display: inline-block;
+    }
+
+#media{
+    margin-left: 30px;
+}
+
+#main{
+    display: block;
+    width: 960px;
+    top: 100px;
+    margin: auto;
+    background: white;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    position: relative;   
+}
+
+footer{
+    border-top-color: #4aaaa5;
+    bottom:0;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    width: 100%; background-color: gray;
+}
+input,textarea{
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width:100%;
+}
+
+textarea{
+    height: 100px;
+}
+.itemTitle{
+    padding: 20px 100px;
+    color: white;
+    background: #4aaaa5;
+    position: absolute;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 70px;
+    text-align: center;
+    font-size: 20px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+/* .portfolioItem h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */
